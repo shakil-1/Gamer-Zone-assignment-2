@@ -246,3 +246,32 @@ text-align: left;
     line-height: 40px;
 
 }
+
+/* avatars section  */
+.avatars-section{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.avatar{
+    width: 243px;
+    display: flex;
+    border-radius: 50px;
+background: #FFF;
+padding: 5px;
+}
+.avatar p{
+    color: #0B0223;
+
+font-weight: 600;
+padding: 0 10px;
+}
+
+.single-avatar{
+    border: 1px solid #F948B2;
+}
+.single-avatar p{
+    color: #F948B2;
+}
