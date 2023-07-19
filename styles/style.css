@@ -651,3 +651,25 @@ justify-content: center;
             gap: 38px;
         }
     }
+
+
+    /* table device  */
+    @media screen and (min-width:576px)and (max-width:768px) {
+     
+        .nav-container ul {
+          width: 100%;
+
+            
+        }
+      .banner-container{
+        flex-direction: column-reverse;
+    }
+      
+        .small-banner {
+           flex-direction: column;
+        }
+        .cards {
+            grid-template-columns: repeat(2, 1fr) ;
+            text-align: center;
+        }
+    }
