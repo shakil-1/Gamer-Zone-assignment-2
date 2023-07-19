@@ -10,7 +10,7 @@
 
 body {
     background-color: #FFF;
-    ;
+
 }
 
 .container-width {
@@ -37,7 +37,7 @@ body {
     padding: 21px 40px;
     gap: 10px;
     background-color: #FFF;
-    border-radius:48px;
+    border-radius: 48px;
     border: 0;
     color: #F948B2;
 
@@ -188,11 +188,12 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.card p{
+
+.card p {
     color: #534C64;
-font-size: 1rem;
-font-weight: 500;
-text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
 
 }
 
@@ -248,30 +249,117 @@ text-align: left;
 }
 
 /* avatars section  */
-.avatars-section{
+.avatars-section {
     padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
-.avatar{
+
+.avatar {
     width: 243px;
     display: flex;
     border-radius: 50px;
-background: #FFF;
-padding: 5px;
+    background: #FFF;
+    padding: 5px;
 }
-.avatar p{
+
+.avatar p {
     color: #0B0223;
 
-font-weight: 600;
-padding: 0 10px;
+    font-weight: 600;
+    padding: 0 10px;
 }
 
-.single-avatar{
+.single-avatar {
     border: 1px solid #F948B2;
 }
-.single-avatar p{
+
+.single-avatar p {
     color: #F948B2;
+}
+
+
+/* start a footer section  */
+footer {
+    background-color: #0B0223;
+    color: #FFF;
+}
+
+.footer-container {
+    padding: 50px 0;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.footer-logo-container p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-logo-container img {
+    width: 86px;
+    height: 40px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+footer ul li {
+    list-style: none;
+
+}
+
+.footer-item1 li {
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.footer-icon {
+    padding: 20px 0;
+}
+
+.footer-icon li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    color: #F948B2;
+    font-size: 30px;
+    padding: 5px;
+
+
+}
+
+.footer-support {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 3rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
 }
