@@ -44,10 +44,19 @@ body {
 
 }
 
-#btn-2 {
-    background-color: #4EC5F7;
+.btn-secondary{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+border: 0;
+    
+padding: 21px 40px;
+gap: 10px;
+    border-radius: 48px;
+background: #4EC5F7;
+margin-left: 20px;
 }
-
 
 
 /* shaire style end */
@@ -238,6 +247,25 @@ font-weight: 700;
     grid-template-columns: repeat(4, 1fr);
 }
 
+.card-icon {
+    border-radius: 20px;
+    position: relative;
+    top: -474px;
+    left: 0px;
+    font-size: 70px;
+    background-color: #3c354fbf;
+    height: 397px;
+    width: 341px;
+    /* right: -20px; */
+    border: 1px solid red;
+}
+.icon {
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 125px;
+    cursor: pointer;
+}
 .card p {
     color: #534C64;
     font-size: 1rem;
@@ -346,6 +374,7 @@ line-height: 40px;
     border-radius: 50px;
     background: #FFF;
     padding: 5px;
+    transition: 1s;
 }
 
 .avatar p {
@@ -355,7 +384,7 @@ line-height: 40px;
     padding: 0 10px;
 }
 
-.single-avatar {
+.avatar:hover {
     border: 1px solid #F948B2;
 }
 
@@ -428,6 +457,7 @@ footer ul li {
     color: #F948B2;
     font-size: 30px;
     padding: 5px;
+    cursor: pointer;
 
 
 }
@@ -530,7 +560,23 @@ justify-content: center;
    
     
     }
+    .card-icon {
+    
+        top: -444px;
+        left: 109px;
+        height: 395px;
+        width: 338px;
+    
+    }
+    .icon {
+        left: 0px;
+     
+    }
+    .btn-secondary {
 
+        margin-top: 20px;
+        margin-left: 0;
+    }
 
     .cards {
         grid-template-columns: 1fr ;
