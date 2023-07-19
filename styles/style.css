@@ -5,8 +5,18 @@
     font-family: 'Work Sans', sans-serif;
     margin: o;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    background-color: #FFF;
+    ;
+}
+
+.container-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* shaire style start */
 .btn-primary {
@@ -20,64 +30,117 @@
     border: 0;
 }
 
-.text-log {
-    color: #0B0223;
-    font-size: 45px;
-    font-weight: 700;
-}
-
-.g-styel {
-    color: #FF42A5;
-}
-
-div .btn-color {
-
+#btn-2 {
     background-color: #4EC5F7;
 }
+
+
 
 /* shaire style end */
 
 /* start navbar  */
 nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #FFF;
+    background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-nav>ul {
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-container {
     display: flex;
     align-items: center;
+    width: 50%;
 
 }
 
-.navbar-log {
-    align-items: center;
+.amar-section {
+    color: #FF42A5;
+}
+
+.logo-container p {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.nav-container ul {
+    width: 50%;
     display: flex;
-
-
+    align-items: center;
+    justify-content: space-around;
 }
 
-.navbar-log img {
-    margin-right: 1.25rem;
-}
-
-
-nav li {
+.nav-container ul li {
     list-style-type: none;
 }
 
-nav li a {
+.nav-container ul li a {
     text-decoration: none;
     margin-left: 2rem;
-    padding: 0 20px;
     color: #3C354F;
-text-align: center;
-font-size: 1.25rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* start banner section  */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../images/Group14.png');
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+
+   
+}
+
+.banner-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.nav-icon{
-    border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-padding: .625rem 1.25rem;
+.banner-text-container{
+   
+}
+
+.banner-text-container h2 {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-text-container h1 {
+  
+font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text-container li {
+    list-style-type: none;
+    color: #534C60;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 27px;
+}
+
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 90%;
 }
