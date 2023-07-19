@@ -594,26 +594,16 @@ justify-content: center;
      
     }
  
-
-
-/* 
     .play-game{
-      flex-direction: row-reverse;
-        
+       flex-direction: column;
+    }
+    .play-small-img img {
         position: relative;
-        }
-        .play-small-img img {
-            position: relative;
-            left: 300px;
-            bottom: 250px;
-        }
-        .play-big-img {
-            width: 55%;
-            margin-top: 508px;
-            left: 0;
-            height: 300px;
-            right: 0;
-        }  */
+        width: 263px;
+        height: 300px;
+        right: -20px;
+        top: -142px;
+    }
         
         .careers {
             padding: 10px;
