@@ -73,7 +73,18 @@ nav {
   margin: 0 auto;
 
 }
+.nav-sining{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+color: #3C354F;
+font-size: 18px;
 
+padding: 5px 10px;
+}
+.youtube{
+    padding: 0 5px;
+    color: red;
+}
 .amar-section {
     color: #FF42A5;
 }
@@ -471,22 +482,21 @@ footer ul li {
      
         grid-template-rows: repeat(1, 1fr);
     }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
 
-
-
-    /* .banner-container{
-        flex-direction: column;
-        background-image: none;
+    .nav-container ul {
+       text-align: center;
+    }
+    .logo-container {
+        
        
-    }
-    .banner-img {
         width: 100%;
+justify-content: center;
+      
     }
 
-    .banner-text{
-       width: 100%;
-    }
-   */
 
    .small-banner{
     flex-direction: column;
