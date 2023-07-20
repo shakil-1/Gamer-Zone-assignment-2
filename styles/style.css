@@ -287,9 +287,7 @@ color: #F948B2 !important;
     width: 70px;
     height: 70px;
 }
-.icon:hover{
 
-}
 
 .card p {
     color: #534C64;
@@ -490,13 +488,16 @@ footer ul li {
 .footer-icon {
     padding: 20px 0;
 }
-
-.footer-icon li {
-    width: 40px;
-    height: 40px;
+.footer-border-redius {
+    width: 36px;
+    height: 33px;
+    padding: 2px;
     border-radius: 50%;
     background-color: #FFF;
-    color: #F948B2;
+    color: #1877F2;
+}
+.footer-icon li {
+  
     font-size: 30px;
     padding: 5px;
     cursor: pointer;
